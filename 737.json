@@ -1,0 +1,13 @@
+{
+  "title": "Test Video",
+  "duration": 100,
+  "live": true,
+  "sources": [
+    {
+      "url": "https://1l1l.to/ch29",
+      "contentType": "application/x-mpegURL",
+      "quality": 1080
+    }
+  ],
+    "textTracks": []
+}
