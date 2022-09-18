@@ -1,0 +1,22 @@
+{
+  "title": "sukcesja s3e3",
+  "duration": 290,
+  "sources": [
+    {
+      "url": "https://vcze155.cda.pl/V4pNwb3vK9z_h9FRtm5McQ/1663552553/hdc75fa468b2c204056e5bfe7ef194419c.mp4",
+      "contentType": "video/mp4",
+      "quality": 1080
+    },
+    {
+      "url": "https://vcze155.cda.pl/O9eBOAfB_8IECUPeV8h70Q/1663552600/sdc75fa468b2c204056e5bfe7ef194419c.mp4",
+      "contentType": "video/mp4",
+      "quality": 720
+    },
+    {
+      "url": "https://vcze155.cda.pl/umgfAEu63KxQ6D8Fh3UZ5A/1663552612/lqc75fa468b2c204056e5bfe7ef194419c.mp4",
+      "contentType": "video/mp4",
+      "quality": 480
+    }
+  ],
+  "textTracks": []
+}
