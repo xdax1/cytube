@@ -1,0 +1,37 @@
+{
+  "title": "rod smoka s1e5",
+  "duration": 3540,
+  "sources": [
+    {
+      "url": "https://vwaw517.cda.pl/ERDp75b2IfApCTVWMm3ndw/1663640788/hd2f91989b33b9263ac29aa29a4d4a8331.mp4",
+      "contentType": "video/mp4",
+      "quality": 1080
+    },
+    {
+      "url": "https://vwaw779.cda.pl/h24C0o2MtwI93svYPzLpjQ/1663640808/sd2f91989b33b9263ac29aa29a4d4a8331.mp4",
+      "contentType": "video/mp4",
+      "quality": 720
+    },
+    {
+      "url": "https://vwaw808.cda.pl/YbqhJh859oHFC4nP4yHhbg/1663640823/lq2f91989b33b9263ac29aa29a4d4a8331.mp4",
+      "contentType": "video/mp4",
+      "quality": 480
+    },
+        {
+      "url": "https://vwaw565.cda.pl/1NZ77dD_TkHp-9Lkj1o66Q/1663640889/hdd2c9cd70da9ae28ab2ae509628dcf1bb.mp4",
+      "contentType": "video/mp4",
+      "quality": 1080 napisy
+    },
+    {
+      "url": "https://vwaw535.cda.pl/ZDZ6KZtbQDP9SghjTsavtw/1663640908/sdd2c9cd70da9ae28ab2ae509628dcf1bb.mp4",
+      "contentType": "video/mp4",
+      "quality": 720 napisy
+    },
+    {
+      "url": "https://vwaw535.cda.pl/6UD_zYzYLkuFQpc7pwC2eQ/1663640921/lqd2c9cd70da9ae28ab2ae509628dcf1bb.mp4",
+      "contentType": "video/mp4",
+      "quality": 480 napisy
+    }
+  ],
+  "textTracks": []
+}
