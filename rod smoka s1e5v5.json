@@ -1,0 +1,37 @@
+{
+  "title": "rod smoka s1e5 lektor - napisy to 2080/580/380 (to nie jakosc)",
+  "duration": 3540,
+  "sources": [
+    {
+      "url": "https://vwaw517.cda.pl/ERDp75b2IfApCTVWMm3ndw/1663640788/hd2f91989b33b9263ac29aa29a4d4a8331.mp4",
+      "contentType": "video/mp4",
+      "quality": 1080
+    },
+    {
+      "url": "https://vwaw779.cda.pl/h24C0o2MtwI93svYPzLpjQ/1663640808/sd2f91989b33b9263ac29aa29a4d4a8331.mp4",
+      "contentType": "video/mp4",
+      "quality": 720
+    },
+    {
+      "url": "https://vwaw808.cda.pl/YbqhJh859oHFC4nP4yHhbg/1663640823/lq2f91989b33b9263ac29aa29a4d4a8331.mp4",
+      "contentType": "video/mp4",
+      "quality": 480
+    },
+    {
+      "url": "https://vwaw565.cda.pl/wzWbIq2zleCRU5nwHsLoQA/1663643694/hdd2c9cd70da9ae28ab2ae509628dcf1bb.mp4",
+      "contentType": "video/mp4",
+      "quality": 2080
+    },
+    {
+      "url": "https://vwaw535.cda.pl/ky08GyH_2rrcDn6_7R_hTw/1663643717/sdd2c9cd70da9ae28ab2ae509628dcf1bb.mp4",
+      "contentType": "video/mp4",
+      "quality": 580
+    },
+    {
+      "url": "https://vwaw535.cda.pl/T6T7WjLRA7nLoJA3U2B0pw/1663643754/lqd2c9cd70da9ae28ab2ae509628dcf1bb.mp4",
+      "contentType": "video/mp4",
+      "quality": 380
+    }
+  ],
+  "textTracks": []
+}
