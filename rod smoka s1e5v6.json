@@ -1,5 +1,5 @@
 {
-  "title": "rod smoka s1e5 lektor - napisy to 2080/580/380 (to nie jakosc)",
+  "title": "rod smoka s1e5 lektor - napisy to 360/240/144 (to nie jakosc)",
   "duration": 3540,
   "sources": [
     {
@@ -20,17 +20,17 @@
     {
       "url": "https://vwaw565.cda.pl/wzWbIq2zleCRU5nwHsLoQA/1663643694/hdd2c9cd70da9ae28ab2ae509628dcf1bb.mp4",
       "contentType": "video/mp4",
-      "quality": 2080
+      "quality": 360
     },
     {
       "url": "https://vwaw535.cda.pl/ky08GyH_2rrcDn6_7R_hTw/1663643717/sdd2c9cd70da9ae28ab2ae509628dcf1bb.mp4",
       "contentType": "video/mp4",
-      "quality": 580
+      "quality": 240
     },
     {
       "url": "https://vwaw535.cda.pl/T6T7WjLRA7nLoJA3U2B0pw/1663643754/lqd2c9cd70da9ae28ab2ae509628dcf1bb.mp4",
       "contentType": "video/mp4",
-      "quality": 380
+      "quality": 144
     }
   ],
   "textTracks": []
