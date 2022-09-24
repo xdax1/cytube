@@ -1,0 +1,22 @@
+{
+  "title": "sukcesja s3e9 wybor jakosc jest",
+  "duration": 3660,
+  "sources": [
+    {
+      "url": "https://vcze155.cda.pl/bPpMkbxazcdq48Yp3-Cbpw/1664074640/hd01d49beca7c3c34d43c449d68838ef4c.mp4",
+      "contentType": "video/mp4",
+      "quality": 1080
+    },
+    {
+      "url": "https://vcze155.cda.pl/veA0gWYTpSHCBcJRKnNuEQ/1664074677/sd01d49beca7c3c34d43c449d68838ef4c.mp4",
+      "contentType": "video/mp4",
+      "quality": 720
+    },
+    {
+      "url": "https://vcze155.cda.pl/r35zLpvGwfMAK_4wkQSqkQ/1664074695/lq01d49beca7c3c34d43c449d68838ef4c.mp4",
+      "contentType": "video/mp4",
+      "quality": 480
+    }
+  ],
+  "textTracks": []
+}
