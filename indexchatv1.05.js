@@ -1,3 +1,32 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@xdax1
+xdax1 /
+cytube
+Public
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+cytube/indexchatv1.04.js /
+@xdax1
+xdax1 Update and rename indexchatv1.03.js to indexchatv1.04.js
+Latest commit 814aaa9 in 1 hour
+History
+1 contributor
+403 lines (347 sloc) 22.8 KB
 (function() {
 
     let _defaultEnabled = true,
@@ -338,7 +367,7 @@
     //saveFromModal: sets the current window's nnd object properties based on the options selected in the modal window, and calls _fn.save
 
     //create modal element, insert before #pmbar
-    $('<div class="fade modal"id=nndSettingsModal aria-hidden=true role=dialog style=display:none tabindex=-1><div class=modal-dialog><div class=modal-content><div class=modal-header><button class=close data-dismiss=modal aria-hidden=true>×</button><h4>Niconico Chat Settings [<span id=modal-nnd-roomname>'+CHANNEL.name+'</span>]</h4></div><div class=modal-body id=nndSettingsWrap><div class=modal-option><div class=checkbox><label for=nnd-enable><input id=nnd-enable type=checkbox> Enable Niconico Chat</label><div class=modal-caption>Enable Niconico-style chat messages. Places chat messages on the currently playing video and scrolls them to the opposite side.</div></div></div><div class=modal-option><div class=checkbox><label for=nnd-displayimages><input id=nnd-displayimages type=checkbox> Display Images and Emotes</label><div class=modal-caption>Show images in Niconico messages.</div></div></div><div class="modal-option"><div class="checkbox"><label for="nnd-discardwhenfull"><input id="nnd-discardwhenfull" type="checkbox"> Discard New Messages When Full</label><div class="modal-caption">If checked, new messages will be ignored if there\'s no room for them. Otherwise, when there\'s no room, it will essentially be placed on a random line regardless of overlaps.</div></div></div><div class="modal-option"><div class="slider"><label for="nnd-opacity"> Opacity <span id="nnd-opacity-value">70%</span><input id="nnd-opacity" min="0" max="100" type="range"></label><div class="modal-caption">Controls transparency of messages. Default 70%.</div></div></div><div class=modal-option><div class=modal-subheader> Message Order</div><div class=modal-caption>Determines the order in which new messages are placed, as long as there is enough room.</div><div class=radio><label for=nnd-offsettype-0><input id=nnd-offsettype-0 type=radio name=offsettype> Random </label><br><label for=nnd-offsettype-1><input id=nnd-offsettype-1 type=radio name=offsettype> Top to Bottom </label></div></div><div class=modal-option><div class=modal-subheader>Message Direction</div><div class=modal-caption>Determines where new messages will start and end.</div><div class=radio><label for=nnd-fromright-true><input id=nnd-fromright-true type=radio name=fromright> from Right to Left</label><br><label for=nnd-fromright-false><input id=nnd-fromright-false type=radio name=fromright> from Left to Right</label></div></div><div class=modal-option><div class=modal-subheader>Maximum Messages</div><div class=modal-caption>Maximum amount of messages allowed on screen at once. New messages will be ignored if this many are on screen. A large amount of messages may cause lag. Default 125.</div><input id=nnd-maxmsgs type=text class=form-control placeholder=125></div><div class="modal-option"><div class="modal-subheader">Message Size</div><div class="modal-caption">Sizes of all text and images in Niconico messages. Max image width is always twice the max image height. If you want to avoid vertical image overlap, make sure Max Image Height is the same as or less than Font Size.</div><div class="modal-group"><div class="modal-caption">Font Size (px, default '+_defaultFontSize+') </div><input id="nnd-fontsize" type="text" class="form-control" placeholder="'+_defaultFontSize+'"></div><div class="modal-group"><div class="modal-caption">Max Image Height (px, default '+_defaultImageHeight+')</div><input id="nnd-imageheight" type="text" class="form-control" placeholder="'+_defaultImageHeight+'"></div></div></div><div class=modal-footer><div class=left-warning>Settings are not applied until you click Save.</div><button class="btn btn-primary"data-dismiss=modal type=button onclick=nnd._fn.saveFromModal()>Save</button> <button class="btn btn-primary"data-dismiss=modal type=button onclick=nnd._fn.updateModal()>Close</button><div class="subfooter"><span class="by">made by biggles-</span><a href="https://github.com/deerfarce/cytube-nnd-chat" target="_blank" rel="noreferrer noopener">github</a><span class="ver">version '+nnd._ver+'</span></div></div></div></div></div>').insertBefore('#pmbar');
+    $('<div class="fade modal"id=nndSettingsModal aria-hidden=true role=dialog style=display:none tabindex=-1><div class=modal-dialog><div class=modal-content><div class=modal-header><button class=close data-dismiss=modal aria-hidden=true>×</button><h4>Ustawienia emotek na video [<span id=modal-nnd-roomname>'+CHANNEL.name+'</span>]</h4></div><div class=modal-body id=nndSettingsWrap><div class=modal-option><div class=checkbox><label for=nnd-enable><input id=nnd-enable type=checkbox> Włącz emotki na video</label><div class=modal-caption>Włącza wiadomości czatu na video. Umieszcza wiadomości czatu na aktualnie odtwarzanym filmie wideo i przewija je na drugą stronę.</div></div></div><div class=modal-option><div class=checkbox><label for=nnd-displayimages><input id=nnd-displayimages type=checkbox> Wyświetlanie obrazów i emoteklabel><div class=modal-caption>Pokaż obrazy w video.</div></div></div><div class="modal-option"><div class="checkbox"><label for="nnd-discardwhenfull"><input id="nnd-discardwhenfull" type="checkbox"> Usuń nowe wiadomości po zapełnieniu</label><div class="modal-caption">Jeśli jest zaznaczone, nowe wiadomości będą ignorowane, jeśli nie ma dla nich miejsca. W przeciwnym razie, gdy nie ma miejsca, zostaną one zasadniczo umieszczone w losowej linii, niezależnie od nakładania się.</div></div></div><div class="modal-option"><div class="slider"><label for="nnd-opacity"> Przeźroczystość <span id="nnd-opacity-value">70%</span><input id="nnd-opacity" min="0" max="100" type="range"></label><div class="modal-caption">Kontroluje przezroczystość wiadomości. Domyślnie 70%.</div></div></div><div class=modal-option><div class=modal-subheader> Kolejność wiadomości</div><div class=modal-caption>Określa kolejność umieszczania nowych wiadomości, o ile jest wystarczająco dużo miejsca.</div><div class=radio><label for=nnd-offsettype-0><input id=nnd-offsettype-0 type=radio name=offsettype> Losowe </label><br><label for=nnd-offsettype-1><input id=nnd-offsettype-1 type=radio name=offsettype> Od góry do dołu </label></div></div><div class=modal-option><div class=modal-subheader>Kierunek wiadomości</div><div class=modal-caption>Określa miejsce rozpoczęcia i zakończenia nowych wiadomości.</div><div class=radio><label for=nnd-fromright-true><input id=nnd-fromright-true type=radio name=fromright> od prawej do lewej</label><br><label for=nnd-fromright-false><input id=nnd-fromright-false type=radio name=fromright> od lewej do prawej</label></div></div><div class=modal-option><div class=modal-subheader>Maksymalna ilość komunikatów</div><div class=modal-caption>Maksymalna ilość wiadomości na ekranie jednocześnie. Nowe wiadomości będą ignorowane, jeśli na ekranie jest ich zbyt wiele. Duża ilość wiadomości może powodować lagi. Domyślnie 125</div><input id=nnd-maxmsgs type=text class=form-control placeholder=125></div><div class="modal-option"><div class="modal-subheader">Rozmiar wiadomości</div><div class="modal-caption">Rozmiary wszystkich tekstów i obrazów w wiadomościach video. Maksymalna szerokość obrazu jest zawsze dwa razy większa od maksymalnej wysokości obrazu. Jeśli chcesz uniknąć pionowego nakładania się obrazów, upewnij się, że Max wysokość obrazu jest taka sama lub mniejsza niż Rozmiar czcionki.</div><div class="modal-group"><div class="modal-caption">Font Size (px, default '+_defaultFontSize+') </div><input id="nnd-fontsize" type="text" class="form-control" placeholder="'+_defaultFontSize+'"></div><div class="modal-group"><div class="modal-caption">Maksymalna wysokość obrazu (px, default '+_defaultImageHeight+')</div><input id="nnd-imageheight" type="text" class="form-control" placeholder="'+_defaultImageHeight+'"></div></div></div><div class=modal-footer><div class=left-warning>Ustawienia nie są stosowane do momentu kliknięcia przycisku Zapisz.</div><button class="btn btn-primary"data-dismiss=modal type=button onclick=nnd._fn.saveFromModal()>Zapisz</button> <button class="btn btn-primary"data-dismiss=modal type=button onclick=nnd._fn.updateModal()>Close</button><div class="subfooter"><span class="by">Skrypt</span><a href="https://github.com/xdax1/cytube/blob/main/indexchatv1.04.js" target="_blank" rel="noreferrer noopener">github</a><span class="ver">wersja '+nnd._ver+'</span></div></div></div></div></div>').insertBefore('#pmbar');
 
     //load the user's options then update the modal element
     nnd._fn.load();
@@ -398,6 +427,6 @@
       }
     }, 2500);
 
-    console.log('LOADED: Niconico chat script for cytu.be [https://github.com/deerfarce/cytube-nnd-chat]. Version '+nnd._ver);
+    console.log('Zaladowany skrypt wersja: '+nnd._ver);
 
 })();
