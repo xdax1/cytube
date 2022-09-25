@@ -76,7 +76,7 @@
               nnd['MAX'] = 5;
               nnd['offsetType'] = 0;
               nnd['fromRight'] = true;
-              nnd['fontSize'] = _defaultFontSize;
+              nnd['fontSize'] = 1;
               nnd['imageHeight'] = _defaultImageHeight;
               nnd['displayImages'] = true;
               nnd['discardWhenFull'] = false;
