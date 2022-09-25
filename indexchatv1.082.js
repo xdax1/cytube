@@ -65,7 +65,7 @@
         'MAX':5, //maximum amount of messages allowed on screen before the oldest messages are removed
         'offsetType':0, //0: position based on fontsize and player height; 1: random %
         'fromRight':true, //move messages from right? if false, moves from left instead
-        'fontSize':_defaultFontSize, //font size of messages in pixels
+        'fontSize':1, //font size of messages in pixels
         'imageHeight':_defaultImageHeight, //max height of images in pixels
         'displayImages':true, //show emotes/images in niconico messages
         'discardWhenFull':true,
@@ -76,7 +76,7 @@
               nnd['MAX'] = 5;
               nnd['offsetType'] = 0;
               nnd['fromRight'] = true;
-              nnd['fontSize'] = 1;
+              nnd['fontSize'] = _defaultFontSize;
               nnd['imageHeight'] = _defaultImageHeight;
               nnd['displayImages'] = true;
               nnd['discardWhenFull'] = false;
