@@ -68,7 +68,7 @@
         'fontSize':_defaultFontSize, //font size of messages in pixels
         'imageHeight':_defaultImageHeight, //max height of images in pixels
         'displayImages':true, //show emotes/images in niconico messages
-        'discardWhenFull':false,
+        'discardWhenFull':true,
         'opacity':70,
         '_fn': {
             'init':()=>{
