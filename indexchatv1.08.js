@@ -1,7 +1,7 @@
 (function() {
 
     let _defaultEnabled = true,
-        _defaultFontSize = 18,
+        _defaultFontSize = 1,
         _defaultImageHeight = 54,
         _scrollDuration = 7;
 
