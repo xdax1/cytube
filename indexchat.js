@@ -1,7 +1,7 @@
 (function() {
 
     let _defaultEnabled = true,
-        _defaultFontSize = 24,
+        _defaultFontSize = 18,
         _defaultImageHeight = 54,
         _scrollDuration = 7;
 
@@ -62,7 +62,7 @@
 
     window.nnd = {
         'enabled':_defaultEnabled, //enabled? self-explanatory
-        'MAX':125, //maximum amount of messages allowed on screen before the oldest messages are removed
+        'MAX':5, //maximum amount of messages allowed on screen before the oldest messages are removed
         'offsetType':0, //0: position based on fontsize and player height; 1: random %
         'fromRight':true, //move messages from right? if false, moves from left instead
         'fontSize':_defaultFontSize, //font size of messages in pixels
