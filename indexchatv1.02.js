@@ -34,7 +34,7 @@
             ".videoText img, .videochatContainer .channel-emote {box-shadow: none!important; vertical-align: middle!important;display: inline-block!important;transition: none!important;}"+
             ".videoText.shout {color: #f00}"+
             ".modal .left-warning {float: left;padding: 10px 12px;font-size: 13px;color: #ff8f8f}"+
-            ".modal .modal-caption {font-size: 13px;text-indent: 35px;color: #8f9cad}"+
+            ".modal .modal-caption {font-size: 6px;text-indent: 28px;color: #8f9cad}"+
             "#nndSettingsWrap .radio label {display: block;color: #c4ccd8}"+
             "#nndSettingsWrap #nnd-maxmsgs, #nndSettingsWrap #nnd-fontsize, #nndSettingsWrap #nnd-imageheight {margin: 10px 0;width: 100px;}"+
             ".modal-subheader {font-size: 16px;border-bottom: 1px solid #212123;margin-left: -10px;padding: 10px 0 0 2px}"+
@@ -68,7 +68,7 @@
         'fontSize':_defaultFontSize, //font size of messages in pixels
         'imageHeight':_defaultImageHeight, //max height of images in pixels
         'displayImages':true, //show emotes/images in niconico messages
-        'discardWhenFull':false,
+        'discardWhenFull':true,
         'opacity':70,
         '_fn': {
             'init':()=>{
