@@ -1,0 +1,22 @@
+{
+  "title": "rod smoka s1e6 wybor jakosci)",
+  "duration": 4080,
+  "sources": [
+    {
+      "url": "https://vwaw888.cda.pl/AJIu7o8_XMsWh5cIgM9ajw/1664248758/hd5fdf2d85b7d28c2829f6eb28052a77c3.mp4",
+      "contentType": "video/mp4",
+      "quality": 1080
+    },
+    {
+      "url": "https://vwaw660.cda.pl/NhXQR5EbLXiHfMRcnCcUtw/1664248772/sd5fdf2d85b7d28c2829f6eb28052a77c3.mp4",
+      "contentType": "video/mp4",
+      "quality": 720
+    },
+    {
+      "url": "https://vwaw587.cda.pl/a0j3QF4B7K8Odyj1hXVSvw/1664248788/lq5fdf2d85b7d28c2829f6eb28052a77c3.mp4",
+      "contentType": "video/mp4",
+      "quality": 480
+    }
+  ],
+  "textTracks": []
+}
