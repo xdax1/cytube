@@ -2,7 +2,7 @@
 
     let _defaultEnabled = true,
         _defaultFontSize = 1,
-        _defaultImageHeight = 54,
+        _defaultImageHeight = 20,
         _scrollDuration = 7;
 
     let setFontSizeCSS = function(fontsize, imageheight) {
