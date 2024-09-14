@@ -1,0 +1,22 @@
+{
+  "title": "Test Video",
+  "duration": 10,
+  "live": false,
+  "thumbnail": "https://example.com/thumb.jpg",
+  "sources": [
+    {
+      "url": "https://example.com/video.mp4",
+      "contentType": "video/mp4",
+      "quality": 1080,
+      "bitrate": 5000
+    }
+  ],
+  "textTracks": [
+    {
+      "url": "https://example.com/subtitles.vtt",
+      "contentType": "text/vtt",
+      "name": "English Subtitles",
+      "default": true
+    }
+  ]
+}
