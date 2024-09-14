@@ -1,16 +1,21 @@
 {
   "title": "Test Video",
-  "duration": 8000,
+  "duration": 1464,
   "live": false,
-  "thumbnail": "https://example.com/thumb.jpg",
   "sources": [
     {
-      "url": "https://cs9-3v4.vkuservideo.net/video/hls/p12/fd4926175e5e/index-f4-v1-a1.m3u8?extra=vy5n5r0613VLzLxIFtMHOaF8kajb_UpgfEqKJce_b4nyxYYPlz_wB39x0GJ1zUpkulyJiIwekJAZuBSR4mnGyaBzOydX0l1xWbnJTvio06xQuMj3Y1r_r0av8zCm2-Pahd7EFI-XHUdbqlN1KA",
+      "url": "https://assets.frame.io/encode/483b3a41-94de-4343-81cd-5d64a5a98a60/h264_720.mp4?x-amz-meta-project_id=94795bf2-5a3f-4295-8681-1b87efd9677f&x-amz-meta-request_id=F_UTboUCS-SusjgVoNgD&x-amz-meta-project_id=94795bf2-5a3f-4295-8681-1b87efd9677f&x-amz-meta-resource_type=asset&x-amz-meta-resource_id=483b3a41-94de-4343-81cd-5d64a5a98a60&Expires=1726358400&Signature=NJLIaBgr5vHeA6t36aHKGTEMfVgmBOoUKVU2IRPEv5TyI-rmxDHjKHXgowAP7TO69cz7HrE9nrZCsGuKnk1nBerraj~MmdzZ~9NqhkVYi15O7E~JwzzKvYeL~2A67S8jf68fBbhnWUXb1-UPGQ8outFtA7RLYetIiKbxfei-AtBsUHutWidVZQ7FJi4wTBmBIi4JI8VwTVHUIWRpIIQr4uCtxrdGuLacmOZoVhmXgpriNKOEiLTKrv0T~mTwzNX-XO7ozZ8w063gDSzDBGWwnSO3M2kPnXLi9IpvTZT3mZ4xr0ssPAOH6q3FCmPfcYyEHrkb582PhuYmIjDIWTQ1YQ__&Key-Pair-Id=K1XW5DOJMY1ET9",
       "contentType": "video/mp4",
       "quality": 1080,
       "bitrate": 5000
     }
   ],
   "textTracks": [
+    {
+      "url": "https://raw.githubusercontent.com/xdax1/Napisy/main/One-Punch.Man.2015.S01E08.SUB.PL.720p.WEB-DL.x264.AAC-BiRD_track3_%5Bpol%5D.srt",
+      "contentType": "text/srt",
+      "name": "Polskie napisy",
+      "default": true
+    }
   ]
 }
