@@ -1,0 +1,24 @@
+{
+    "ok": true,
+    "list": {
+        "uuid": "939fbf65-9040-4392-ae06-5817dd84f57a",
+        "order_uuid": null,
+        "channels": [
+           	{
+                "channel_url": "https://www.filmweb.pl/serial/Szko%C5%82a-2014-721921",
+                "image_url": "https://fwcdn.pl/fpo/19/21/721921/7756316_2.3.jpg",
+                "title": "Szkoła 15:00"
+            },
+		{
+                "channel_url": "https://www.filmweb.pl/film/Egzorcyzm-2024-848311",
+                "image_url": "hhttps://static.kinoafisha.info/k/movie_posters/canvas/800x1200/upload/movie_posters/7/0/4/8376407/566882389956.jpg",
+                "title": "20:00 The Exorcism 2024 [Harambe premiera]"
+            },
+					{
+                "channel_url": "https://www.filmweb.pl/film/The+Outlaws-2024-10055022",
+                "image_url": "https://i.imgur.com/h1O6DkH.jpeg",
+                "title": "21:40 Outlaw 2024"
+            },
+        ]
+    }
+}
