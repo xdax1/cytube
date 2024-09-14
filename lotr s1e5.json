@@ -1,22 +1,12 @@
 {
-  "title": "lotr s1e5 wybor jakosc jest",
+  "title": "test",
   "duration": 4320,
   "sources": [
     {
-      "url": "https://vwaw049.cda.pl/1JIYPal514eMIBJjvuvoCg/1663988347/hd4dda1ab082e07f909f06bafa4fe1fb1a.mp4",
-      "contentType": "video/mp4",
-      "quality": 1080
-    },
-    {
-      "url": "https://vwaw149.cda.pl/9w_8CyuKX5ZVIZBZAmE2WA/1663988380/sd4dda1ab082e07f909f06bafa4fe1fb1a.mp4",
-      "contentType": "video/mp4",
-      "quality": 720
-    },
-    {
-      "url": "https://vwaw306.cda.pl/DikVEm96dUZFX6CTJ1CTzg/1663988399/lq4dda1ab082e07f909f06bafa4fe1fb1a.mp4",
+      "url": "https://vwaw777.cda.pl/h/b/b/24/na/TL332YDHM6SQjdjQ4PD3XQ/31855471/1726342523/lq116eb4edccf668c10ff46313ee291c48.mp4?uid=3185547164",
       "contentType": "video/mp4",
       "quality": 480
-    }
+    },
   ],
   "textTracks": []
 }
