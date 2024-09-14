@@ -1,5 +1,5 @@
 {
-  "title": "The Exorcism 2024 [Harambe premiera]",
+  "title": "The Exorcism 2024 [Harambe premiera] (te drugie to napisy)",
   "duration": 5731,
   "sources": [
     {
@@ -20,17 +20,17 @@
         {
       "url": "https://assets.frame.io/encode/6e6dbf66-e850-4d45-95de-5fbde77bbc7a/h264_1080_best.mp4?x-amz-meta-project_id=535b624a-e782-4d49-8ae4-de94e0186d07&x-amz-meta-request_id=F_UtxYg6MY-onKAXzcGD&x-amz-meta-project_id=535b624a-e782-4d49-8ae4-de94e0186d07&x-amz-meta-resource_type=asset&x-amz-meta-resource_id=6e6dbf66-e850-4d45-95de-5fbde77bbc7a&Expires=1726401600&Signature=cj0zZmn7eQF05Fm9kMfrCO9pQ4bVNi9f1C-psYgvDIAKa4J8gVLPlOPbK9w2u8PGqjQHKCXkzdG2Q6hxB40r4-UUthHu95K8Zaeq~35E0X~n6iFhM5gTx21GMcwf7ifeF7fuO8EDo~WXVdIlKZKsUhR1v-f2I8lMLOTYlOhQ~bq~j6-y5dgIXYhRrhO231U56vmgThrA8OPgguTfZ7TkdpAkzB1jz1s6BDGeGR8e3RR3vsdinUYuQcNPvgt1n5zseSyRrV7JAPhKnPA3XB8in50k00ABkJJ98EujrtPUxNxMdZ5Y1j2eSNJXJUHgxSwo8yQ8GqUAd~eR3Q4Hs82djA__&Key-Pair-Id=K1XW5DOJMY1ET9",
       "contentType": "video/mp4",
-      "quality": 1080nap
+      "quality": 10800
     },
     {
       "url": "https://assets.frame.io/encode/6e6dbf66-e850-4d45-95de-5fbde77bbc7a/h264_720.mp4?x-amz-meta-project_id=535b624a-e782-4d49-8ae4-de94e0186d07&x-amz-meta-request_id=F_UtxYg6MY-onKAXzcGD&x-amz-meta-project_id=535b624a-e782-4d49-8ae4-de94e0186d07&x-amz-meta-resource_type=asset&x-amz-meta-resource_id=6e6dbf66-e850-4d45-95de-5fbde77bbc7a&Expires=1726401600&Signature=U~2ZcrDGYzC2b5W9VncNkXQei2QyZHJG8j7oKdFAG131YKXRqxc5E8rwvdHe3HhliAMc6MJXawDT61JTXpD6gYYI9klIrEjQhZCk08YCo4Q4Y~oda~J-FIsVYKoPGSf~e-zFbHRzvOZcyKS5hE2lk9ja70cjF0wMuTF7EHATSJPYViRxnQ1xt52Ep39xN18ZHdO-IFIHPrTDWic8KyvJBMTAEA75GLwkDTQ93kp-g-lMmM9RfgKNLJrDbpuFc1BSMEQJxXf~g1ePMWBlgoieh5yJMLm6MznNNeAclHrhVi-OcLu99qtdsQO-EKN-JQfGEUNltSU6oPKXErZ9BFNnSw__&Key-Pair-Id=K1XW5DOJMY1ET9",
       "contentType": "video/mp4",
-      "quality": 720nap
+      "quality": 7200
     },
     {
       "url": "https://assets.frame.io/encode/6e6dbf66-e850-4d45-95de-5fbde77bbc7a/h264_540.mp4?x-amz-meta-project_id=535b624a-e782-4d49-8ae4-de94e0186d07&x-amz-meta-request_id=F_UtxYg6MY-onKAXzcGD&x-amz-meta-project_id=535b624a-e782-4d49-8ae4-de94e0186d07&x-amz-meta-resource_type=asset&x-amz-meta-resource_id=6e6dbf66-e850-4d45-95de-5fbde77bbc7a&Expires=1726401600&Signature=KkGd3LQxWWXezLlwWBxtvVFPdevNGR17sjkGDNT6jjzHAdW5FvimDC3~TkkEgadNtE-T9RxTHdXbdh3DO~7if9thgf4hJUe4-DKXYakEX~ESGvyeNyp4CwhZH5uugRZmEnRAn47zd-iW0qdlCub43Yp~9XX7cCr7lF4ZBE0O23FiOzZY0v6hwRjtJjJE59XMtSwDAVoxTamnqGaV2EibiFjxdT9YemoretBBcvxMUAS-qATam72D-O907ClV--1XotYEIfKvjH5BEa3HYWKS1YwfAXT0dHth~uwNn4KfRZFHmDA04gbK53M251rhSQrr3DqJHEWt8kYQE78SC7sGSg__&Key-Pair-Id=K1XW5DOJMY1ET9",
       "contentType": "video/mp4",
-      "quality": 480nap
+      "quality": 4800
     }
   ],
   "textTracks": []
