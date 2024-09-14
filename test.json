@@ -1,0 +1,16 @@
+{
+  "title": "Test Video",
+  "duration": 8000,
+  "live": false,
+  "thumbnail": "https://example.com/thumb.jpg",
+  "sources": [
+    {
+      "url": "https://vwaw777.cda.pl/h/b/b/24/na/TL332YDHM6SQjdjQ4PD3XQ/31855471/1726342523/lq116eb4edccf668c10ff46313ee291c48.mp4?uid=3185547164",
+      "contentType": "video/mp4",
+      "quality": 1080,
+      "bitrate": 5000
+    }
+  ],
+  "textTracks": [
+  ]
+}
