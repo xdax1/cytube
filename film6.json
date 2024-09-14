@@ -1,19 +1,18 @@
 {
-  "title": "The Exorcism 2024 [Harambe premiera] (te drugie to napisy",
+  "title": "The Exorcism 2024 [Harambe premiera] (te drugie to napisy)",
   "duration": 5731,
   "live": false,
   "sources": [
     {
       "url": "https://assets.frame.io/encode/5dc34b7d-56c1-4b7a-90fd-a65111df8ec1/h264_1080_best.mp4?x-amz-meta-project_id=535b624a-e782-4d49-8ae4-de94e0186d07&x-amz-meta-request_id=F_UtxYg6MY-onKAXzcGD&x-amz-meta-project_id=535b624a-e782-4d49-8ae4-de94e0186d07&x-amz-meta-resource_type=asset&x-amz-meta-resource_id=5dc34b7d-56c1-4b7a-90fd-a65111df8ec1&Expires=1726401600&Signature=n8EWGnoJpxPjDKcYuMD-c6FWM5z5BwvUoas9opzrnob3EcVw1hKrP9S8X1Z2GeYkBRw3~a~Nc-o8u-BgIM2jan6yyl1FGRDynq1qgWUJ0Nrh1bi~BjAdV8gld4waMvPaI15jvtjMXZcJJkhJklAX30mNf9i81UX8C2oofuMNo033u92BK7Ui4Zn7kOlHhY0r-3bLxoAGl6aZxhL9qtrWU6GZn23EdaEkGmuhSZY3BBnnuXH7Hh3cTOiaNGmqov8MV4vpcSwj2xzI0zkvsFjMn4ruEz7Z9vwYJXTqsRrgAxbiSsS1YCKpiEb~7ZQ7KsTtRilbMj3F27yD5MrbbDMh8g__&Key-Pair-Id=K1XW5DOJMY1ET9",
       "contentType": "video/mp4",
-      "quality": 1080,
-    }
-	    {
+      "quality": 1080
+    },
+    {
       "url": "https://assets.frame.io/encode/6e6dbf66-e850-4d45-95de-5fbde77bbc7a/h264_1080_best.mp4?x-amz-meta-project_id=535b624a-e782-4d49-8ae4-de94e0186d07&x-amz-meta-request_id=F_UtxYg6MY-onKAXzcGD&x-amz-meta-project_id=535b624a-e782-4d49-8ae4-de94e0186d07&x-amz-meta-resource_type=asset&x-amz-meta-resource_id=6e6dbf66-e850-4d45-95de-5fbde77bbc7a&Expires=1726401600&Signature=cj0zZmn7eQF05Fm9kMfrCO9pQ4bVNi9f1C-psYgvDIAKa4J8gVLPlOPbK9w2u8PGqjQHKCXkzdG2Q6hxB40r4-UUthHu95K8Zaeq~35E0X~n6iFhM5gTx21GMcwf7ifeF7fuO8EDo~WXVdIlKZKsUhR1v-f2I8lMLOTYlOhQ~bq~j6-y5dgIXYhRrhO231U56vmgThrA8OPgguTfZ7TkdpAkzB1jz1s6BDGeGR8e3RR3vsdinUYuQcNPvgt1n5zseSyRrV7JAPhKnPA3XB8in50k00ABkJJ98EujrtPUxNxMdZ5Y1j2eSNJXJUHgxSwo8yQ8GqUAd~eR3Q4Hs82djA__&Key-Pair-Id=K1XW5DOJMY1ET9",
       "contentType": "video/mp4",
-      "quality": 1080,
+      "quality": 1080
     }
-
   ],
-  "textTracks": [
-  ]
+  "textTracks": []
+}
